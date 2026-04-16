@@ -36,10 +36,18 @@ nav a {
     padding: 10px 20px;
     transition: 0.3s;
 }
-
-nav a:hover {
+nav :hover{
     background-color: #bc1a8e;
     border-radius: 5px;
+}
+
+
+nav a.active{
+     background-color: #bc1a8e;
+     border-radius: 5px;
+     
+    
+
 }
 
 main {
@@ -173,5 +181,9 @@ button:hover {
     
     table {
         font-size: 14px;
+        display: block;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 505px;
     }
-}
+    }
