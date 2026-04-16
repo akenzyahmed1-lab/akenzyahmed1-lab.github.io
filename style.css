@@ -182,8 +182,9 @@ button:hover {
     table {
         font-size: 14px;
         display: block;
+        width: 100%;
         overflow-x: auto;
-        overflow-y: hidden;
-        height: 505px;
+        overflow-y: visible;
+        height: auto;
     }
     }
